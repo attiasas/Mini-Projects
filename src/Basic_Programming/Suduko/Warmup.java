@@ -1,4 +1,4 @@
-package Basic_Programming.Suduko;// Author: Assaf Attias
+package Basic_Programming.Suduko;
 
 /**
  * This class has a variety of recursive functions base on each task that was given

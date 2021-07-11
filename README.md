@@ -9,7 +9,7 @@ Programming assignments and projects on a variety of topics
 | ---------------- | -------- |
 | Bull's Eye | Functions, conditions and loops |
 | Sudoku | Recursion |
-| Group Domino | Classes and Methods |
+| Group Domino | Objects, Classes and Encapsulation |
 | Product Orders Management System | Object Oriented Programming |
 
 ##📌 Future Planned Projects
@@ -66,4 +66,4 @@ Programming assignments and projects on a variety of topics
 
 
 
-**[⬆ back to top](#description)**
+**[⬆ back to top](#✨Description)**
