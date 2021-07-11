@@ -3,16 +3,18 @@
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
-##📌 Topics
+## 📌 Topics
 ### 📂 Basic Programming
-| Mini-Project Name | Subject |  
-| ---------------- | -------- |
-| Bull's Eye | Functions, conditions and loops |
-| Sudoku | Recursion |
-| Group Domino | Objects, Classes and Encapsulation |
-| Product Orders Management System | Object Oriented Programming - Inheritance, interfaces and polymorphism |
+| Mini-Project Name | Subject | Link |
+| ---------------- | -------- | ---- |
+| Bull's Eye | Functions, conditions and loops | [go to project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Bulls_Eye)
+| Sudoku | Recursion | [go to project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Suduko) |
+| Group Domino | Objects, Classes and Encapsulation | [go to project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Domino) |
+| Product Orders Management System | Object Oriented Programming - Inheritance, interfaces and polymorphism | [go to project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Product_Orders_Management_System) |
 
-##📌 Future Planned Projects
+---
+
+#### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
 | Basic Word Spelling Checker | Hash Tables, Data Structures |  NLP / Basic Programming |
@@ -67,4 +69,4 @@ Programming assignments and projects on a variety of topics
 
 
 
-**[⬆ back to top](#✨Description)**
+**[⬆ back to top](#-description)**
