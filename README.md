@@ -10,7 +10,7 @@ Programming assignments and projects on a variety of topics
 | Bull's Eye | Functions, conditions and loops |
 | Sudoku | Recursion |
 | Group Domino | Objects, Classes and Encapsulation |
-| Product Orders Management System | Object Oriented Programming |
+| Product Orders Management System | Object Oriented Programming - Inheritance, interfaces and polymorphism |
 
 ##📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
@@ -49,19 +49,20 @@ Programming assignments and projects on a variety of topics
 | Pacman Web-Game | advance HTML5, JavaScript | Web Development Environments |
 | Recipes Website - Backend Dev | OpenAPI, Azure, NodeJS | Web Development Environments |
 | Recipes Website - Frontend Dev | Vue.JS, Bootstrap | Web Development Environments |
-| ? | hibernate, HQL | Databases |
-| ? | Oracle SQL, OJDBC | Databases |
-| ? | ? | Machine Learning |
-| ? | ? | Machine Learning |
-| ? | ? | Machine Learning |
-| ? | ? | Deep Learning |
-| ? | ? | Deep Learning |
-| ? | ? | Deep Learning |
-| ? | ? | Deep Learning |
-| Challenge | ? | Cyber-Security |
-| ? | ? | NLP |
-| ? | ? | NLP |
-| ? | ? | NLP |
+| Users & MediaItems - Part A | Oracle SQL, OJDBC | Databases |
+| Users & MediaItems - Part B | hibernate, ORM, HQL | Databases |
+| Users & MediaItems - Part C | Apache Tomcat, using NoSQL DB (jedis) | Databases |
+| Naive Bayes | Implementation of Multinomial Naive Bayes, Classifying Digits (MNIST) and Text Documents | Machine Learning |
+| Ensemble | Condorcet's Jury Theorem (Monte-Carlo simulation), AdaBoost | Machine Learning |
+| Imbalanced DataSet | Data Exploration, Pre-Processing. Training 3 Models (Logistic Regression, Balanced Random Forest, NN) | Machine Learning |
+| ANN | building a simple neural network “from scratch” and forward/backward propagation process | Deep Learning |
+| Facial Recognition | CNN, one-shot Learning and Siamese Neural Networks | Deep Learning |
+| Lyrics Generation | building a recurrent neural net (RNN) and using it on a real-world dataset | Deep Learning |
+| Generative Models | implement standard GAN, and modified GAN architecture | Deep Learning |
+| MFDCA Official Challenge | distinguish masqueraders from benign users, from the history of bash commands | Deep Learning / Cyber-Security |
+| Spell Checker | Noisy Channel and a Probabilistic Spell Checker | NLP |
+| Who Controls this Account | Text classification and Authorship Attribution | NLP |
+| Part of Speech (POS) Tagging | implement a Hidden Markov Model for Part of Speech tagging | NLP |
 
 
 
