@@ -7,10 +7,41 @@ Programming assignments and projects on a variety of topics
 ### 📂 Basic Programming
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ---- |
-| Bull's Eye | Functions, conditions and loops | [go to project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Bulls_Eye)
-| Sudoku | Recursion | [go to project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Suduko) |
-| Group Domino | Objects, Classes and Encapsulation | [go to project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Domino) |
-| Product Orders Management System | Object Oriented Programming - Inheritance, interfaces and polymorphism | [go to project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Product_Orders_Management_System) |
+| Bull's Eye | Functions, conditions and loops | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Bulls_Eye)
+| Sudoku | Recursion | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Suduko) |
+| Group Domino | Objects, Classes and Encapsulation | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Domino) |
+| Product Orders Management System | Object Oriented Programming - Inheritance, interfaces and polymorphism | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Basic_Programming/Product_Orders_Management_System) |
+
+### 📂 Advance Programming
+| Mini-Project Name | Subject | Link |
+| ---------------- | -------- | ----- |
+
+### 📂 AI, ML and DL
+| Mini-Project Name | Subject | Link |
+| ---------------- | -------- | ----- |
+| Naive Bayes | Implementation of Multinomial Naive Bayes, Classifying Digits (MNIST) and Text Documents | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Naive_Bayes) |
+| Ensemble | Condorcet's Jury Theorem (Monte-Carlo simulation), AdaBoost | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Ensemble) |
+| Imbalanced DataSet | Data Exploration, Pre-Processing. Training 3 Models (Logistic Regression, Balanced Random Forest, NN) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Imbalanced_DataSet) |
+
+### 📂 Computing and Operation Systems
+| Mini-Project Name | Subject | Link |
+| ---------------- | -------- | ----- |
+
+### 📂 Web
+| Mini-Project Name | Subject | Link |
+| ---------------- | -------- | ----- |
+
+### 📂 Computer & Information Security
+| Mini-Project Name | Subject | Link |
+| ---------------- | -------- | ----- |
+
+### 📂 Databases
+| Mini-Project Name | Subject | Link |
+| ---------------- | -------- | ----- |
+
+### 📂 NLP
+| Mini-Project Name | Subject | Link |
+| ---------------- | -------- | ----- |
 
 ---
 
@@ -54,9 +85,6 @@ Programming assignments and projects on a variety of topics
 | Users & MediaItems - Part A | Oracle SQL, OJDBC | Databases |
 | Users & MediaItems - Part B | hibernate, ORM, HQL | Databases |
 | Users & MediaItems - Part C | Apache Tomcat, using NoSQL DB (jedis) | Databases |
-| Naive Bayes | Implementation of Multinomial Naive Bayes, Classifying Digits (MNIST) and Text Documents | Machine Learning |
-| Ensemble | Condorcet's Jury Theorem (Monte-Carlo simulation), AdaBoost | Machine Learning |
-| Imbalanced DataSet | Data Exploration, Pre-Processing. Training 3 Models (Logistic Regression, Balanced Random Forest, NN) | Machine Learning |
 | ANN | building a simple neural network “from scratch” and forward/backward propagation process | Deep Learning |
 | Facial Recognition | CNN, one-shot Learning and Siamese Neural Networks | Deep Learning |
 | Lyrics Generation | building a recurrent neural net (RNN) and using it on a real-world dataset | Deep Learning |
