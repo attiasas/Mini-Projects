@@ -1,0 +1,53 @@
+create or replace
+trigger AutoIncrement
+before insert on MediaItems
+for each row
+declare
+    id_counter number;
+begin
+    -- get static id
+    select max(MID) into id_counter from MediaItems;
+    if id_counter is null then
+        :new.MID := 0;
+    else
+        :new.MID := id_counter+ 1;
+    end if;
+    -- caclulate title len
+    if :new.TITLE is null then
+        :new.TITLE_LENGTH := 0;
+    else
+        :new.TITLE_LENGTH := length(:new.TITLE);
+    end if;
+end;
+
+create or replace
+function MaximalDistance return number is
+    current_dist number;
+    max_dist number;
+begin
+    max_dist := 0; 
+    for i in (select MID , PROD_YEAR from MediaItems) loop
+        for j in (select MID , PROD_YEAR from MediaItems) loop
+            if i.MID != j.MID then
+                current_dist := (i.PROD_YEAR - j.PROD_YEAR) * (i.PROD_YEAR - j.PROD_YEAR);
+                if current_dist > max_dist then
+                    max_dist := current_dist;
+                end if;
+            end if;
+        end loop;
+    end loop;
+    
+    return max_dist;
+    
+end MaximalDistance;
+
+create or replace
+function SimCalculation(MID1 in number, MID2 in number, maximal_distance in number) return float is
+    prod_year_1 number;
+    prod_year_2 number;
+begin
+    select PROD_YEAR into prod_year_1 from MediaItems where MID = MID1;
+    select PROD_YEAR into prod_year_2 from MediaItems where MID = MID2;
+    
+    return 1 - ((prod_year_1 - prod_year_2) * (prod_year_1 - prod_year_2) / maximal_distance);
+end SimCalculation;

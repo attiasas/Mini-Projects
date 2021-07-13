@@ -43,6 +43,7 @@ Programming assignments and projects on a variety of topics
 | DB Application | Java communicates With Microsoft SQL | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/DB_Application) |
 | XML DB | XML manipulation | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/XML_DB) |
 | Bitmap | Bitmap Representation | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/Bitmap) |
+| Users & MediaItems - SQL | Oracle SQL, JDBC | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/Users_MediaItems_SQL) |
 
 ### 📂 NLP
 | Mini-Project Name | Subject | Link |
@@ -64,9 +65,8 @@ Programming assignments and projects on a variety of topics
 | Hotel System | Analysis and Design of Software Systems - Implement Constraints in System | Advance Programming |
 | ePark System | Analysis and Design of Software Systems - Implement System Base On User Cases (UC) | Advance Programming |
 | ---------------- | -------- | ----- |
-| Users & MediaItems - Part A | Oracle SQL, OJDBC | Databases |
-| Users & MediaItems - Part B | hibernate, ORM, HQL | Databases |
-| Users & MediaItems - Part C | Apache Tomcat, using NoSQL DB (jedis) | Databases |
+| Users & MediaItems - HQL | hibernate, ORM, HQL | Databases |
+| Users & MediaItems - NoSQL | Apache Tomcat, using NoSQL DB (jedis) | Databases |
 | ---------------- | -------- | ----- |
 | Gates, Memory and CPU | Implement Virtual Components | Computing System |
 | Assembler | Implement Assembler | Computing System |
