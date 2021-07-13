@@ -1,4 +1,4 @@
 # DDL
 SQL Scripts for Tables, Keys
 
-Assignment for the course 'Machine Learning'
+Assignment for the course 'Databases'
