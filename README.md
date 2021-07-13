@@ -20,6 +20,7 @@ Programming assignments and projects on a variety of topics
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
 | Naive Bayes | Implementation of Multinomial Naive Bayes, Classifying Digits (MNIST) and Text Documents | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Naive_Bayes) |
+| Ensemble | Condorcet's Jury Theorem (Monte-Carlo simulation), AdaBoost | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Ensemble) |
 
 ### 📂 Computing and Operation Systems
 | Mini-Project Name | Subject | Link |
@@ -84,7 +85,6 @@ Programming assignments and projects on a variety of topics
 | Users & MediaItems - Part B | hibernate, ORM, HQL | Databases |
 | Users & MediaItems - Part C | Apache Tomcat, using NoSQL DB (jedis) | Databases |
 
-| Ensemble | Condorcet's Jury Theorem (Monte-Carlo simulation), AdaBoost | Machine Learning |
 | Imbalanced DataSet | Data Exploration, Pre-Processing. Training 3 Models (Logistic Regression, Balanced Random Forest, NN) | Machine Learning |
 
 | ANN | building a simple neural network “from scratch” and forward/backward propagation process | Deep Learning |
