@@ -21,6 +21,7 @@ Programming assignments and projects on a variety of topics
 | ---------------- | -------- | ----- |
 | Naive Bayes | Implementation of Multinomial Naive Bayes, Classifying Digits (MNIST) and Text Documents | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Naive_Bayes) |
 | Ensemble | Condorcet's Jury Theorem (Monte-Carlo simulation), AdaBoost | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Ensemble) |
+| Imbalanced DataSet | Data Exploration, Pre-Processing. Training 3 Models (Logistic Regression, Balanced Random Forest, NN) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Imbalanced_DataSet) |
 
 ### 📂 Computing and Operation Systems
 | Mini-Project Name | Subject | Link |
@@ -84,9 +85,6 @@ Programming assignments and projects on a variety of topics
 | Users & MediaItems - Part A | Oracle SQL, OJDBC | Databases |
 | Users & MediaItems - Part B | hibernate, ORM, HQL | Databases |
 | Users & MediaItems - Part C | Apache Tomcat, using NoSQL DB (jedis) | Databases |
-
-| Imbalanced DataSet | Data Exploration, Pre-Processing. Training 3 Models (Logistic Regression, Balanced Random Forest, NN) | Machine Learning |
-
 | ANN | building a simple neural network “from scratch” and forward/backward propagation process | Deep Learning |
 | Facial Recognition | CNN, one-shot Learning and Siamese Neural Networks | Deep Learning |
 | Lyrics Generation | building a recurrent neural net (RNN) and using it on a real-world dataset | Deep Learning |
