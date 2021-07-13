@@ -38,6 +38,7 @@ Programming assignments and projects on a variety of topics
 ### 📂 Databases
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
+| DDL | SQL Scripts for Tables, Keys | Databases |
 
 ### 📂 NLP
 | Mini-Project Name | Subject | Link |
@@ -56,7 +57,7 @@ Programming assignments and projects on a variety of topics
 | Gates, Memory and CPU | Implement Virtual Components | Computing System |
 | Assembler | Implement Assembler | Computing System |
 | Compiler | Implement Compiler | Computing System |
-| DDL | SQL Scripts for Tables, Keys | Databases |
+
 | SQL Scripts | SQL Procedures,Views,Triggers  | Databases |
 | DB Application | Java communicates With Microsoft SQL | Databases |
 | XML DB | XML manipulation, Bitmap | Databases |
