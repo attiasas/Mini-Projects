@@ -40,6 +40,7 @@ Programming assignments and projects on a variety of topics
 | ---------------- | -------- | ----- |
 | DDL | SQL Scripts for Tables, Keys | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/DDL) |
 | SQL Scripts | SQL Procedures,Views,Triggers  | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/SQL_Scripts) |
+| DB Application | Java communicates With Microsoft SQL | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/DB_Application) |
 
 ### 📂 NLP
 | Mini-Project Name | Subject | Link |
@@ -60,7 +61,7 @@ Programming assignments and projects on a variety of topics
 | Compiler | Implement Compiler | Computing System |
 
 
-| DB Application | Java communicates With Microsoft SQL | Databases |
+
 | XML DB | XML manipulation, Bitmap | Databases |
 | Maze Game - Part A | Maze Generator and Search Algorithms | Advance Programming |
 | Maze Game - Part B | Threads, Data Compression | Advance Programming |
