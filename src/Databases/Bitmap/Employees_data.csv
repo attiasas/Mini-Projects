@@ -1,0 +1,475 @@
+id,gender,age level,salary level,jobcat,Living area,degree,minority,education,Marital Status
+1,m,3,0,3,north,junior,0,BA,married
+2,m,1,0,1,south,senior,0,high school,devorced
+3,f,1,0,1,north,junior,0,none,single
+4,f,1,0,1,north,senior,0,MA,married
+5,m,1,0,1,hasharon,senior,0,BA,devorced
+6,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,single
+7,m,1,0,1,south,junior,0,none,married
+8,f,1,0,1,hasharon,junior,0,MA,devorced
+9,f,1,0,1,hasharon,senior,0,BA,single
+10,f,1,0,1,south,senior,0,high school,married
+11,f,1,0,1,south,senior,0,none,devorced
+12,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,MA,single
+13,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,BA,married
+14,f,1,1,1,Tel Aviv Metropolitan Area,senior,1,high school,devorced
+15,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+16,m,1,0,1,north,senior,0,MA,married
+17,m,1,0,1,south,senior,0,BA,devorced
+18,m,3,0,3,north,junior,0,high school,single
+19,m,1,0,1,north,junior,0,none,married
+20,f,1,0,1,hasharon,junior,0,MA,devorced
+21,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,BA,single
+22,m,1,1,1,south,senior,1,high school,married
+23,f,1,1,1,hasharon,senior,1,none,devorced
+24,f,1,1,1,hasharon,junior,1,MA,single
+25,f,1,1,1,south,junior,1,BA,married
+26,m,1,0,1,south,senior,0,high school,devorced
+27,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,none,single
+28,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,MA,married
+29,m,3,0,3,Tel Aviv Metropolitan Area,senior,0,BA,devorced
+30,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,single
+31,m,1,0,1,north,junior,0,none,married
+32,m,3,0,3,south,junior,0,MA,devorced
+33,m,1,0,1,north,senior,0,BA,single
+34,m,3,0,3,north,senior,0,high school,married
+35,m,3,0,3,hasharon,senior,0,none,devorced
+36,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,single
+37,m,1,1,1,south,junior,1,BA,married
+38,m,1,1,1,hasharon,senior,1,high school,devorced
+39,m,1,1,1,hasharon,junior,1,none,single
+40,f,1,1,1,south,senior,1,MA,married
+41,f,1,1,1,south,senior,1,BA,devorced
+42,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,single
+43,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,married
+44,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,devorced
+45,m,2,0,2,Tel Aviv Metropolitan Area,senior,0,BA,single
+46,f,1,0,1,north,senior,0,high school,married
+47,f,1,0,1,south,senior,0,none,devorced
+48,m,2,0,2,north,junior,0,MA,single
+49,m,1,0,1,north,junior,0,BA,married
+50,m,3,0,3,hasharon,senior,0,high school,devorced
+51,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+52,m,1,0,1,south,senior,0,MA,married
+53,m,3,0,3,hasharon,senior,0,BA,devorced
+54,m,1,0,1,hasharon,junior,0,high school,single
+55,m,1,0,1,south,junior,0,none,married
+56,m,1,0,1,south,junior,0,MA,devorced
+57,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,BA,single
+58,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,married
+59,m,1,1,1,Tel Aviv Metropolitan Area,senior,1,none,devorced
+60,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,MA,single
+61,m,1,1,1,north,junior,1,BA,married
+62,m,3,0,3,south,senior,0,high school,devorced
+63,m,3,0,3,north,junior,0,none,single
+64,m,3,0,3,north,senior,0,MA,married
+65,m,1,0,1,hasharon,senior,0,BA,devorced
+66,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,high school,single
+67,m,3,0,3,south,junior,0,none,married
+68,m,3,0,3,hasharon,junior,0,MA,devorced
+69,m,3,0,3,hasharon,senior,0,BA,single
+70,m,1,0,1,south,senior,0,high school,married
+71,m,3,0,3,south,senior,0,none,devorced
+72,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,single
+73,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,married
+74,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,devorced
+75,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+76,f,1,0,1,north,senior,0,MA,married
+77,f,1,0,1,south,senior,0,BA,devorced
+78,f,1,0,1,north,junior,0,high school,single
+79,f,1,0,1,north,junior,0,none,married
+80,f,1,0,1,hasharon,junior,0,MA,devorced
+81,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,BA,single
+82,f,1,1,1,south,senior,1,high school,married
+83,f,1,1,1,hasharon,senior,1,none,devorced
+84,f,1,1,1,hasharon,junior,1,MA,single
+85,m,1,0,1,south,junior,0,BA,married
+86,m,1,0,1,south,senior,0,high school,devorced
+87,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+88,m,3,0,3,Tel Aviv Metropolitan Area,senior,0,MA,married
+89,m,3,0,3,Tel Aviv Metropolitan Area,senior,0,BA,devorced
+90,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,single
+91,f,1,0,1,north,junior,0,none,married
+92,f,1,0,1,south,junior,0,MA,devorced
+93,f,1,0,1,north,senior,0,BA,single
+94,f,1,0,1,north,senior,0,high school,married
+95,f,1,0,1,hasharon,senior,0,none,devorced
+96,m,2,1,2,Tel Aviv Metropolitan Area,junior,1,MA,single
+97,m,1,1,1,south,junior,1,BA,married
+98,m,2,1,2,hasharon,senior,1,high school,devorced
+99,f,1,1,1,hasharon,junior,1,none,single
+100,m,3,0,3,south,senior,0,none,single
+101,m,3,0,3,south,senior,0,MA,married
+102,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,devorced
+103,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,high school,single
+104,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,married
+105,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,devorced
+106,m,3,0,3,north,senior,0,MA,single
+107,f,1,0,1,south,senior,0,BA,married
+108,f,1,0,1,north,junior,0,high school,devorced
+109,m,1,1,1,north,junior,1,none,single
+110,m,1,1,1,hasharon,senior,1,none,married
+111,m,2,1,2,Tel Aviv Metropolitan Area,junior,1,MA,devorced
+112,m,2,1,2,south,senior,1,BA,single
+113,m,3,0,3,hasharon,senior,0,high school,married
+114,m,1,0,1,hasharon,junior,0,none,devorced
+115,m,1,0,1,south,junior,0,none,single
+116,m,1,0,1,south,junior,0,MA,married
+117,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,BA,devorced
+118,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,single
+119,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,married
+120,f,3,0,3,Tel Aviv Metropolitan Area,junior,0,none,devorced
+121,f,1,0,1,north,junior,0,MA,single
+122,f,1,0,1,south,senior,0,BA,married
+123,f,1,0,1,north,junior,0,high school,devorced
+124,f,1,0,1,north,senior,0,none,single
+125,m,1,1,1,hasharon,senior,1,none,married
+126,m,2,1,2,Tel Aviv Metropolitan Area,junior,1,MA,devorced
+127,m,2,1,2,south,junior,1,BA,single
+128,f,1,1,1,hasharon,junior,1,high school,married
+129,m,3,0,3,hasharon,senior,0,none,devorced
+130,m,3,0,3,south,senior,0,none,single
+131,m,1,0,1,south,senior,0,MA,married
+132,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,devorced
+133,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,single
+134,f,3,0,3,Tel Aviv Metropolitan Area,senior,0,none,married
+135,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,devorced
+136,m,1,0,1,north,senior,0,MA,single
+137,m,3,0,3,south,senior,0,BA,married
+138,m,1,0,1,north,junior,0,high school,devorced
+139,f,1,0,1,north,junior,0,none,single
+140,f,1,0,1,hasharon,junior,0,none,married
+141,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,MA,devorced
+142,f,1,0,1,south,senior,0,BA,single
+143,f,1,0,1,hasharon,senior,0,high school,married
+144,f,1,0,1,hasharon,junior,0,none,devorced
+145,m,1,1,1,south,junior,1,none,single
+146,m,1,1,1,south,senior,1,MA,married
+147,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,BA,devorced
+148,f,1,1,1,Tel Aviv Metropolitan Area,senior,1,high school,single
+149,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,married
+150,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,devorced
+151,m,3,0,3,north,junior,0,MA,single
+152,m,2,0,2,south,junior,0,BA,married
+153,f,1,0,1,north,senior,0,high school,devorced
+154,f,1,0,1,north,senior,0,none,single
+155,m,1,1,1,hasharon,senior,1,none,married
+156,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,MA,devorced
+157,f,1,1,1,south,junior,1,BA,single
+158,f,1,1,1,hasharon,senior,1,high school,married
+159,f,1,1,1,hasharon,junior,1,none,devorced
+160,m,3,0,3,south,senior,0,none,single
+161,m,1,0,1,south,senior,0,MA,married
+162,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,BA,devorced
+163,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,single
+164,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,married
+165,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,devorced
+166,f,1,0,1,north,senior,0,MA,single
+167,f,1,0,1,south,senior,0,BA,married
+168,f,3,0,3,north,junior,0,high school,devorced
+169,m,1,1,1,north,junior,1,none,single
+170,m,1,1,1,hasharon,senior,1,none,married
+171,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,MA,devorced
+172,f,1,1,1,south,senior,1,BA,single
+173,m,3,0,3,hasharon,senior,0,high school,married
+174,m,2,0,2,hasharon,junior,0,none,devorced
+175,m,1,0,1,south,junior,0,none,single
+176,f,1,0,1,south,junior,0,MA,married
+177,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,BA,devorced
+178,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,single
+179,m,1,1,1,Tel Aviv Metropolitan Area,senior,1,none,married
+180,f,1,1,1,Tel Aviv Metropolitan Area,junior,1,none,devorced
+181,f,1,1,1,north,junior,1,MA,single
+182,f,1,1,1,south,senior,1,BA,married
+183,m,1,0,1,north,junior,0,high school,devorced
+184,m,1,0,1,north,senior,0,none,single
+185,m,2,0,2,hasharon,senior,0,none,married
+186,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,devorced
+187,m,3,0,3,south,junior,0,BA,single
+188,f,1,0,1,hasharon,junior,0,high school,married
+189,f,1,0,1,hasharon,senior,0,none,devorced
+190,f,1,0,1,south,senior,0,none,single
+191,f,1,0,1,south,senior,0,MA,married
+192,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,BA,devorced
+193,f,1,1,1,Tel Aviv Metropolitan Area,junior,1,high school,single
+194,f,1,1,1,Tel Aviv Metropolitan Area,senior,1,none,married
+195,f,1,1,1,Tel Aviv Metropolitan Area,junior,1,none,devorced
+196,f,1,1,1,north,senior,1,MA,single
+197,m,3,0,3,south,senior,0,BA,married
+198,m,3,0,3,north,junior,0,high school,devorced
+199,m,3,0,3,north,junior,0,none,single
+200,m,3,0,3,hasharon,junior,0,none,single
+201,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,MA,married
+202,m,1,0,1,south,senior,0,BA,devorced
+203,m,1,0,1,hasharon,senior,0,high school,single
+204,m,1,0,1,hasharon,junior,0,none,married
+205,m,3,0,3,south,junior,0,none,devorced
+206,m,2,0,2,south,senior,0,MA,single
+207,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,married
+208,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,devorced
+209,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,single
+210,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,none,married
+211,m,1,1,1,north,junior,1,MA,devorced
+212,m,1,1,1,south,junior,1,BA,single
+213,m,2,1,2,north,senior,1,high school,married
+214,f,1,1,1,north,senior,1,none,devorced
+215,f,1,1,1,hasharon,senior,1,none,single
+216,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,married
+217,m,1,0,1,south,junior,0,BA,devorced
+218,m,1,0,1,hasharon,senior,0,high school,single
+219,m,1,0,1,hasharon,junior,0,none,married
+220,m,1,0,1,south,senior,0,none,devorced
+221,f,1,0,1,south,senior,0,MA,single
+222,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,married
+223,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,devorced
+224,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+225,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,married
+226,f,1,0,1,north,senior,0,MA,devorced
+227,f,1,0,1,south,senior,0,BA,single
+228,f,1,0,1,north,junior,0,high school,married
+229,f,1,0,1,north,junior,0,none,devorced
+230,m,1,1,1,hasharon,senior,1,none,single
+231,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,MA,married
+232,m,3,0,3,south,senior,0,BA,devorced
+233,m,1,0,1,hasharon,senior,0,high school,single
+234,m,1,0,1,hasharon,junior,0,none,married
+235,m,3,0,3,south,junior,0,none,devorced
+236,f,1,0,1,south,junior,0,MA,single
+237,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,BA,married
+238,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,devorced
+239,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,single
+240,f,3,0,3,Tel Aviv Metropolitan Area,junior,0,none,married
+241,f,1,0,1,north,junior,0,MA,devorced
+242,f,1,0,1,south,senior,0,BA,single
+243,f,1,0,1,north,junior,0,high school,married
+244,f,1,0,1,north,senior,0,none,devorced
+245,f,1,0,1,hasharon,senior,0,none,single
+246,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,married
+247,f,1,0,1,south,junior,0,BA,devorced
+248,f,1,0,1,hasharon,junior,0,high school,single
+249,f,1,0,1,hasharon,senior,0,none,married
+250,f,1,0,1,south,senior,0,none,devorced
+251,f,1,0,1,south,senior,0,MA,single
+252,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,BA,married
+253,f,1,1,1,Tel Aviv Metropolitan Area,junior,1,high school,devorced
+254,m,3,0,3,Tel Aviv Metropolitan Area,senior,0,none,single
+255,m,2,0,2,Tel Aviv Metropolitan Area,junior,0,none,married
+256,m,3,0,3,north,senior,0,MA,devorced
+257,m,3,0,3,south,senior,0,BA,single
+258,m,1,0,1,north,junior,0,high school,married
+259,f,1,0,1,north,junior,0,none,devorced
+260,f,1,0,1,hasharon,junior,0,none,single
+261,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,MA,married
+262,f,1,0,1,south,senior,0,BA,devorced
+263,f,1,0,1,hasharon,senior,0,high school,single
+264,f,1,0,1,hasharon,junior,0,none,married
+265,f,1,0,1,south,junior,0,none,devorced
+266,f,1,0,1,south,senior,0,MA,single
+267,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,married
+268,m,1,1,1,Tel Aviv Metropolitan Area,senior,1,high school,devorced
+269,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,single
+270,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,married
+271,m,1,0,1,north,junior,0,MA,devorced
+272,m,1,0,1,south,junior,0,BA,single
+273,m,2,0,2,north,senior,0,high school,married
+274,m,3,0,3,north,senior,0,none,devorced
+275,m,1,0,1,hasharon,senior,0,none,single
+276,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,MA,married
+277,f,3,0,3,south,junior,0,BA,devorced
+278,f,1,0,1,hasharon,senior,0,high school,single
+279,f,1,0,1,hasharon,junior,0,none,married
+280,f,1,0,1,south,senior,0,none,devorced
+281,m,2,1,2,south,senior,1,MA,single
+282,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,BA,married
+283,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,high school,devorced
+284,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,none,single
+285,m,2,0,2,Tel Aviv Metropolitan Area,senior,0,none,married
+286,m,3,0,3,north,senior,0,MA,devorced
+287,m,1,0,1,south,senior,0,BA,single
+288,m,3,0,3,north,junior,0,high school,married
+289,m,3,0,3,north,junior,0,none,devorced
+290,m,3,0,3,hasharon,senior,0,none,single
+291,m,2,0,2,Tel Aviv Metropolitan Area,junior,0,MA,married
+292,m,1,0,1,south,senior,0,BA,devorced
+293,m,1,0,1,hasharon,senior,0,high school,single
+294,m,1,0,1,hasharon,junior,0,none,married
+295,m,1,0,1,south,junior,0,none,devorced
+296,m,1,0,1,south,junior,0,MA,single
+297,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,BA,married
+298,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,devorced
+299,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,single
+300,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,none,single
+301,m,1,1,1,north,junior,1,MA,married
+302,m,1,1,1,south,senior,1,BA,devorced
+303,m,2,1,2,north,junior,1,high school,single
+304,f,1,1,1,north,senior,1,none,married
+305,m,2,0,2,hasharon,senior,0,none,devorced
+306,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,single
+307,m,3,0,3,south,junior,0,BA,married
+308,m,1,0,1,hasharon,junior,0,high school,devorced
+309,m,1,0,1,hasharon,senior,0,none,single
+310,m,1,0,1,south,senior,0,none,married
+311,f,1,0,1,south,senior,0,MA,devorced
+312,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,single
+313,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,married
+314,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,devorced
+315,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+316,m,1,1,1,north,senior,1,MA,married
+317,m,1,1,1,south,senior,1,BA,devorced
+318,m,3,0,3,north,junior,0,high school,single
+319,m,1,0,1,north,junior,0,none,married
+320,m,1,0,1,hasharon,junior,0,none,devorced
+321,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,MA,single
+322,f,1,0,1,south,senior,0,BA,married
+323,f,1,0,1,hasharon,senior,0,high school,devorced
+324,f,1,0,1,hasharon,junior,0,none,single
+325,f,1,0,1,south,junior,0,none,married
+326,m,2,1,2,south,senior,1,MA,devorced
+327,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,BA,single
+328,m,3,0,3,Tel Aviv Metropolitan Area,senior,0,high school,married
+329,m,3,0,3,Tel Aviv Metropolitan Area,senior,0,none,devorced
+330,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+331,f,1,0,1,north,junior,0,MA,married
+332,f,1,0,1,south,junior,0,BA,devorced
+333,f,1,0,1,north,senior,0,high school,single
+334,f,1,1,1,north,senior,1,none,married
+335,m,2,0,2,hasharon,senior,0,none,devorced
+336,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,MA,single
+337,f,1,0,1,south,junior,0,BA,married
+338,f,1,0,1,hasharon,senior,0,high school,devorced
+339,f,1,0,1,hasharon,junior,0,none,single
+340,f,1,0,1,south,senior,0,none,married
+341,m,3,1,3,south,senior,1,MA,devorced
+342,f,1,1,1,Tel Aviv Metropolitan Area,junior,1,BA,single
+343,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,high school,married
+344,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,devorced
+345,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,single
+346,f,1,0,1,north,senior,0,MA,married
+347,f,1,0,1,south,senior,0,BA,devorced
+348,f,3,0,3,north,junior,0,high school,single
+349,f,1,0,1,north,junior,0,none,married
+350,f,1,0,1,hasharon,senior,0,none,devorced
+351,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,single
+352,f,1,0,1,south,senior,0,BA,married
+353,m,2,1,2,hasharon,senior,1,high school,devorced
+354,f,1,1,1,hasharon,junior,1,none,single
+355,m,1,0,1,south,junior,0,none,married
+356,m,1,0,1,south,junior,0,MA,devorced
+357,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,BA,single
+358,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,married
+359,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,devorced
+360,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+361,f,1,0,1,north,junior,0,MA,married
+362,f,1,0,1,south,senior,0,BA,devorced
+363,m,1,1,1,north,junior,1,high school,single
+364,f,1,1,1,north,senior,1,none,married
+365,f,1,1,1,hasharon,senior,1,none,devorced
+366,f,1,1,1,Tel Aviv Metropolitan Area,junior,1,MA,single
+367,f,1,1,1,south,junior,1,BA,married
+368,f,1,1,1,hasharon,junior,1,high school,devorced
+369,m,1,0,1,hasharon,senior,0,none,single
+370,f,1,0,1,south,senior,0,none,married
+371,f,3,0,3,south,senior,0,MA,devorced
+372,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,single
+373,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,married
+374,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,devorced
+375,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+376,m,1,0,1,north,senior,0,MA,married
+377,m,1,0,1,south,senior,0,BA,devorced
+378,f,1,0,1,north,junior,0,high school,single
+379,f,1,0,1,north,junior,0,none,married
+380,f,1,0,1,hasharon,junior,0,none,devorced
+381,m,1,1,1,Tel Aviv Metropolitan Area,senior,1,MA,single
+382,m,1,1,1,south,senior,1,BA,married
+383,m,3,1,3,hasharon,senior,1,high school,devorced
+384,f,1,1,1,hasharon,junior,1,none,single
+385,m,2,0,2,south,junior,0,none,married
+386,m,2,0,2,south,senior,0,MA,devorced
+387,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,BA,single
+388,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,married
+389,m,3,0,3,Tel Aviv Metropolitan Area,senior,0,none,devorced
+390,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,single
+391,f,1,0,1,north,junior,0,MA,married
+392,f,1,0,1,south,junior,0,BA,devorced
+393,f,1,0,1,north,senior,0,high school,single
+394,f,1,0,1,north,senior,0,none,married
+395,f,1,0,1,hasharon,senior,0,none,devorced
+396,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,single
+397,f,1,0,1,south,junior,0,BA,married
+398,f,1,0,1,hasharon,senior,0,high school,devorced
+399,f,1,0,1,hasharon,junior,0,none,single
+400,f,1,0,1,south,senior,0,none,single
+401,f,1,0,1,south,senior,0,MA,married
+402,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,devorced
+403,f,1,1,1,Tel Aviv Metropolitan Area,junior,1,high school,single
+404,f,1,1,1,Tel Aviv Metropolitan Area,junior,1,none,married
+405,f,1,1,1,Tel Aviv Metropolitan Area,senior,1,none,devorced
+406,m,3,0,3,north,senior,0,MA,single
+407,m,1,0,1,south,senior,0,BA,married
+408,m,3,0,3,north,junior,0,high school,devorced
+409,m,1,0,1,north,junior,0,none,single
+410,f,1,0,1,hasharon,senior,0,none,married
+411,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,MA,devorced
+412,f,1,0,1,south,senior,0,BA,single
+413,f,3,0,3,hasharon,senior,0,high school,married
+414,m,2,1,2,hasharon,junior,1,none,devorced
+415,m,1,1,1,south,junior,1,none,single
+416,m,1,0,1,south,junior,0,MA,married
+417,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,BA,devorced
+418,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,high school,single
+419,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,married
+420,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,none,devorced
+421,m,1,0,1,north,junior,0,MA,single
+422,m,1,0,1,south,senior,0,BA,married
+423,f,1,0,1,north,junior,0,high school,devorced
+424,f,1,0,1,north,senior,0,none,single
+425,f,1,0,1,hasharon,senior,0,none,married
+426,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,MA,devorced
+427,m,1,1,1,south,junior,1,BA,single
+428,m,1,1,1,hasharon,junior,1,high school,married
+429,m,2,1,2,hasharon,senior,1,none,devorced
+430,m,3,1,3,south,senior,1,none,single
+431,m,3,0,3,south,senior,0,MA,married
+432,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,BA,devorced
+433,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,single
+434,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,married
+435,m,1,0,1,Tel Aviv Metropolitan Area,junior,0,none,devorced
+436,m,1,0,1,north,senior,0,MA,single
+437,m,1,0,1,south,senior,0,BA,married
+438,m,1,0,1,north,junior,0,high school,devorced
+439,f,1,0,1,north,junior,0,none,single
+440,f,1,0,1,hasharon,junior,0,none,married
+441,f,1,0,1,Tel Aviv Metropolitan Area,senior,0,MA,devorced
+442,f,1,0,1,south,senior,0,BA,single
+443,f,1,0,1,hasharon,senior,0,high school,married
+444,f,1,0,1,hasharon,junior,0,none,devorced
+445,m,1,1,1,south,junior,1,none,single
+446,m,3,1,3,south,senior,1,MA,married
+447,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,BA,devorced
+448,f,1,1,1,Tel Aviv Metropolitan Area,senior,1,high school,single
+449,m,3,0,3,Tel Aviv Metropolitan Area,senior,0,none,married
+450,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,none,devorced
+451,m,1,0,1,north,junior,0,MA,single
+452,m,1,0,1,south,junior,0,BA,married
+453,m,1,0,1,north,senior,0,high school,devorced
+454,m,3,0,3,north,senior,0,none,single
+455,m,3,0,3,hasharon,senior,0,none,married
+456,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,MA,devorced
+457,m,1,0,1,south,junior,0,BA,single
+458,m,3,0,3,hasharon,senior,0,high school,married
+459,f,1,0,1,hasharon,junior,0,none,devorced
+460,f,1,0,1,south,senior,0,none,single
+461,f,1,0,1,south,senior,0,MA,married
+462,f,3,0,3,Tel Aviv Metropolitan Area,junior,0,BA,devorced
+463,f,1,0,1,Tel Aviv Metropolitan Area,junior,0,high school,single
+464,m,3,0,3,Tel Aviv Metropolitan Area,junior,0,none,married
+465,m,1,0,1,Tel Aviv Metropolitan Area,senior,0,none,devorced
+466,f,1,0,1,north,senior,0,MA,single
+467,f,1,0,1,south,senior,0,BA,married
+468,f,3,0,3,north,junior,0,high school,devorced
+469,f,1,0,1,north,junior,0,none,single
+470,m,1,1,1,hasharon,senior,1,none,married
+471,m,1,1,1,Tel Aviv Metropolitan Area,junior,1,MA,devorced
+472,m,1,0,1,south,senior,0,BA,single
+473,f,1,0,1,hasharon,senior,0,high school,married
+474,f,1,0,1,hasharon,junior,0,none,devorced
