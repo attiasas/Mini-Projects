@@ -19,6 +19,7 @@ Programming assignments and projects on a variety of topics
 | Country Atlas | Basic C, Memory Management | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Country_Atlas) |
 | Country Atlas - Part B | Advance C, Memory Management, Generic ADT, make file | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Country_Atlas_PartB) |
 | Employee DataBase | Basic C++, classes, operator overload | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Employee_DataBase) |
+| Heroes of might and magic | Advance C++, Classes, OOP | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Heroes) |
 
 ### 📂 AI, ML and DL
 | Mini-Project Name | Subject | Link |
@@ -60,7 +61,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Heroes of might and magic | Advance C++, Classes, OOP | Advance Programming |
 | Maze Game - Part A | Maze Generator and Search Algorithms | Advance Programming |
 | Maze Game - Part B | Threads, Data Compression | Advance Programming |
 | Maze Game - Part C | JavaFX (GUI) | Advance Programming |
