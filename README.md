@@ -45,6 +45,7 @@ Programming assignments and projects on a variety of topics
 | Bitmap | Bitmap Representation | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/Bitmap) |
 | Users & MediaItems - SQL | Oracle SQL, JDBC | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/Users_MediaItems_SQL) |
 | Users & MediaItems - HQL | hibernate, ORM, HQL | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/Users_MediaItems_HQL) |
+| Users & MediaItems - NoSQL | Apache Tomcat, using NoSQL DB (jedis) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/Users_MediaItems_NoSQL) |
 
 ### 📂 NLP
 | Mini-Project Name | Subject | Link |
@@ -65,8 +66,6 @@ Programming assignments and projects on a variety of topics
 | User Orders System | Analysis and Design of Software Systems - Implement System Base On Diagram | Advance Programming |
 | Hotel System | Analysis and Design of Software Systems - Implement Constraints in System | Advance Programming |
 | ePark System | Analysis and Design of Software Systems - Implement System Base On User Cases (UC) | Advance Programming |
-| ---------------- | -------- | ----- |
-| Users & MediaItems - NoSQL | Apache Tomcat, using NoSQL DB (jedis) | Databases |
 | ---------------- | -------- | ----- |
 | Gates, Memory and CPU | Implement Virtual Components | Computing System |
 | Assembler | Implement Assembler | Computing System |
