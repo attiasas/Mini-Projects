@@ -16,6 +16,7 @@ Programming assignments and projects on a variety of topics
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
 | Big Brother | Bash Commands, File Change Monitor Script | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Big_Brother) |
+| Country Atlas | Basic C, Memory Management | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Country_Atlas) |
 
 ### 📂 AI, ML and DL
 | Mini-Project Name | Subject | Link |
@@ -57,7 +58,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Country Atlas | Basic C, Memory Management | Advance Programming |
 | Employee DataBase | Basic C++, Classes | Advance Programming |
 | Heroes of might and magic | Advance C++, Classes, OOP | Advance Programming |
 | Maze Game - Part A | Maze Generator and Search Algorithms | Advance Programming |
