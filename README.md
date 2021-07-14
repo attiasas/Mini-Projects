@@ -15,6 +15,7 @@ Programming assignments and projects on a variety of topics
 ### 📂 Advance Programming
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
+| Big Brother | Bash Commands, File Change Monitor Script | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Big_Brother) |
 
 ### 📂 AI, ML and DL
 | Mini-Project Name | Subject | Link |
@@ -56,7 +57,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| File Change Monitor Script | Bash Commands | Advance Programming |
 | Country Atlas | Basic C, Memory Management | Advance Programming |
 | Employee DataBase | Basic C++, Classes | Advance Programming |
 | Heroes of might and magic | Advance C++, Classes, OOP | Advance Programming |
