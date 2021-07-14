@@ -1,0 +1,34 @@
+create table Users(
+    USERID number(11,0) PRIMARY KEY,
+    USERNAME varchar2(200),
+    PASSWORD varchar2(200),
+    FIRST_NAME varchar2(200),
+    LAST_NAME varchar2(200),
+    DATE_OF_BIRTH TIMESTAMP,
+    REGISTRATION_DATE TIMESTAMP
+);
+
+create table Administrators(
+    ADMINID number(11,0) PRIMARY KEY,
+    USERNAME varchar2(200),
+    PASSWORD varchar2(200)
+);
+
+create table LoginLog(
+    USERID number(11,0),
+    LOGINTIME TIMESTAMP,
+    
+    CONSTRAINT PK_LoginLog PRIMARY KEY (USERID,LOGINTIME),
+    FOREIGN KEY (USERID) REFERENCES Users(USERID)
+);
+
+create table History(
+    USERID number(11,0),
+    MID number(11,0),
+    VIEWTIME TIMESTAMP,
+    
+    CONSTRAINT PK_History PRIMARY KEY (USERID,MID,VIEWTIME),
+    
+    FOREIGN KEY (USERID) REFERENCES Users(USERID),
+    FOREIGN KEY (MID) REFERENCES MediaItems(MID)
+);

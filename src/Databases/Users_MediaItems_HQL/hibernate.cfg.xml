@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:oracle:URL</property>
+        <property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+
+<!--        <mapping class="Entities.AdministratorsEntity"/>-->
+<!--        <mapping class="Entities.HistoryEntity"/>-->
+<!--        <mapping class="Entities.LoginlogEntity"/>-->
+<!--        <mapping class="Entities.Mediaitems"/>-->
+<!--        <mapping class="Entities.SimilarityEntity"/>-->
+<!--        <mapping class="Entities.Users"/>-->
+        <mapping resource="AdministratorsEntity.hbm.xml"/>
+        <mapping resource="HistoryEntity.hbm.xml"/>
+        <mapping resource="LoginlogEntity.hbm.xml"/>
+        <mapping resource="MediaitemsEntity.hbm.xml"/>
+        <mapping resource="SimilarityEntity.hbm.xml"/>
+        <mapping resource="UsersEntity.hbm.xml"/>
+
+
+        <!-- DB schema will be updated if needed -->
+
+    </session-factory>
+</hibernate-configuration>
