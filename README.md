@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.5.1-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.5.3-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -40,6 +40,7 @@ Programming assignments and projects on a variety of topics
 | ---------------- | -------- | ----- |
 | Mario Web-Page | HTML5, CSS3 | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Web_Development/Mario) |
 | Pacman Web-Game | advance HTML5, JavaScript | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Web_Development/Pacman) |
+| Recipes Website - Backend Dev | OpenAPI, Azure, NodeJS | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Web_Development/Recipes_Backend) |
 
 ### 📂 NLP
 | Mini-Project Name | Subject | Link |
@@ -78,7 +79,6 @@ Programming assignments and projects on a variety of topics
 | AES3 | AES3 Using AES to Find Keys | Computer & Information Security |
 | POSIX File Permission | filesystem and network access control schemes and the "principle of least privilege | Computer & Information Security |
 | ---------------- | -------- | ----- |
-| Recipes Website - Backend Dev | OpenAPI, Azure, NodeJS | Web Development Environments |
 | Recipes Website - Frontend Dev | Vue.JS, Bootstrap | Web Development Environments |
 | ---------------- | -------- | ----- |
 | Single Search Agent | Search Algorithms | Intro AI |
