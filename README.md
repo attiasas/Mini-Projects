@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.0.3-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.0.4-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -15,6 +15,14 @@ Programming assignments and projects on a variety of topics
 ### 📂 Advance Programming
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
+| Big Brother | Bash Commands, File Change Monitor Script | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Big_Brother) |
+| Country Atlas | Basic C, Memory Management | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Country_Atlas) |
+| Country Atlas - Part B | Advance C, Memory Management, Generic ADT, make file | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Country_Atlas_PartB) |
+| Employee DataBase | Basic C++, classes, operator overload | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Employee_DataBase) |
+| Heroes of might and magic | Advance C++, Classes, OOP | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Heroes) |
+| Maze Game - Part A | Maze Generator, Search Algorithms, JUnit | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Maze_Game_Part_A) |
+| Maze Game - Part B | Client-Server Communication, Logging, Threads, Data Compression | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Maze_Game_Part_B) |
+| Maze Game - Part C | Event Driven Programming (MVVM), JavaFX (GUI), Design patterns | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Maze_Game_Part_C) |
 
 ### 📂 AI, ML and DL
 | Mini-Project Name | Subject | Link |
@@ -28,6 +36,10 @@ Programming assignments and projects on a variety of topics
 | ---------------- | -------- | ----- |
 
 ### 📂 Web
+| Mini-Project Name | Subject | Link |
+| ---------------- | -------- | ----- |
+
+### 📂 NLP
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
 
@@ -47,25 +59,10 @@ Programming assignments and projects on a variety of topics
 | Users & MediaItems - HQL | hibernate, ORM, HQL | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/Users_MediaItems_HQL) |
 | Users & MediaItems - NoSQL | Apache Tomcat, using NoSQL DB (jedis) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Databases/Users_MediaItems_NoSQL) |
 
-### 📂 NLP
-| Mini-Project Name | Subject | Link |
-| ---------------- | -------- | ----- |
-
 ---
 
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
-| ---------------- | -------- | ----- |
-| File Change Monitor Script | Bash Commands | Advance Programming |
-| Country Atlas | Basic C, Memory Management | Advance Programming |
-| Employee DataBase | Basic C++, Classes | Advance Programming |
-| Heroes of might and magic | Advance C++, Classes, OOP | Advance Programming |
-| Maze Game - Part A | Maze Generator and Search Algorithms | Advance Programming |
-| Maze Game - Part B | Threads, Data Compression | Advance Programming |
-| Maze Game - Part C | JavaFX (GUI) | Advance Programming |
-| User Orders System | Analysis and Design of Software Systems - Implement System Base On Diagram | Advance Programming |
-| Hotel System | Analysis and Design of Software Systems - Implement Constraints in System | Advance Programming |
-| ePark System | Analysis and Design of Software Systems - Implement System Base On User Cases (UC) | Advance Programming |
 | ---------------- | -------- | ----- |
 | Gates, Memory and CPU | Implement Virtual Components | Computing System |
 | Assembler | Implement Assembler | Computing System |

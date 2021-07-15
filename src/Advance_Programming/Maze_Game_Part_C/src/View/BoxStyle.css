@@ -1,0 +1,45 @@
+*{
+    -fx-primary : #2A2E37;
+    -fx-primaryText : #FFFFFF;
+    -fx-secondary : #434956;
+    -fx-ok : #8cd98c;
+    -fx-wrong : #ff8080;
+}
+
+.root
+{
+    -fx-background-color: -fx-primary;
+    -fx-base: -fx-secondary;
+}
+
+.image-view
+{
+    -fx-background-color: -fx-primaryText;
+}
+
+.text-field
+{
+    -fx-background-color: -fx-secondary;
+    -fx-alignment: center;
+}
+
+.text-field-ok
+{
+    -fx-background-color: -fx-ok;
+    -fx-alignment: center;
+}
+
+.text-field-wrong
+{
+    -fx-background-color: -fx-wrong;
+    -fx-alignment: center;
+}
+
+.label
+{
+}
+
+.label-title
+{
+    -fx-font-weight: bold;
+}

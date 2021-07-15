@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@BoxStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.SaveLoadController">
+   <children>
+      <Label alignment="CENTER" styleClass="label-title" text="Load Game" />
+      <HBox alignment="CENTER">
+         <children>
+            <Label text="Path To File:" />
+            <TextField fx:id="tf_PathFile" minWidth="250.0" prefWidth="250.0" style="-fx-alignment: LEFT;">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin>
+            </TextField>
+            <Button fx:id="b_BrowseLoad" mnemonicParsing="false" onAction="#browseLoad" text="Browse" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <Button fx:id="b_Load" mnemonicParsing="false" onAction="#checkAndLoad" text="Load" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+   </padding>
+</VBox>

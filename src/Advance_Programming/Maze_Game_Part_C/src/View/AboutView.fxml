@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="489.0" stylesheets="@BoxStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label styleClass="label-title" text="About" />
+      <Label text="Creators: [ 308214899 Assaf Attias &amp; 205381684 Amir Gabay ]">
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </Label>
+      <TextArea text="This Application was created as a class project in APT course.&#10;&#10;* Generating mazes using a version of prim's algorithm, capable of solving the mazes&#10;using BFS/DFS/BestFirstSearch.&#10;&#10;* Server and Client comunication for solving/generating mazes using a custom version of&#10;LampleZiv algorithm to compress and decompress the data when transfaring and&#10;saving known soluution on server for quick answer.&#10;&#10;* Custom GUI with multiple Theams keys/mouse controls and 3D (layers) maze mode.">
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin>
+      </TextArea>
+      <Label text="Date of creation: 09/06/2019" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>

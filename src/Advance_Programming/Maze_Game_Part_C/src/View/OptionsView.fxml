@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@BoxStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.OptionsController">
+   <children>
+      <VBox alignment="CENTER">
+         <children>
+            <Label style="-fx-font-size: 20;" styleClass="label-title" text="Options" />
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </VBox>
+      <Separator prefWidth="200.0">
+         <VBox.margin>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </VBox.margin>
+      </Separator>
+      <CheckBox fx:id="check_music" mnemonicParsing="false" selected="true" text="Music" />
+      <Separator prefWidth="200.0">
+         <VBox.margin>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </VBox.margin>
+      </Separator>
+      <VBox alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="img_character" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label text="Character" />
+                     </children>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="img_goal" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label text="Goal" />
+                     </children>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="img_wall" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label text="Wall" />
+                     </children>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="img_path" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label text="Path" />
+                     </children>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+            </HBox>
+            <Separator prefWidth="200.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </VBox.margin>
+            </Separator>
+            <HBox alignment="CENTER">
+               <children>
+                  <HBox>
+                     <children>
+                        <RadioButton fx:id="rb_pacman" mnemonicParsing="false" selected="true" text="Pacman">
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                        <RadioButton fx:id="rb_mouse" mnemonicParsing="false" text="Mouse">
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </VBox>
+      <Separator prefWidth="200.0">
+         <VBox.margin>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </VBox.margin>
+      </Separator>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <GridPane alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" />
+                <ColumnConstraints hgrow="SOMETIMES" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints vgrow="SOMETIMES" />
+                <RowConstraints vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Solving Algorithm">
+                     <GridPane.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Generator Algorithm" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <ComboBox fx:id="combo_solveAlgorithm" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </ComboBox>
+                  <ComboBox fx:id="combo_generateAlgorithm" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </ComboBox>
+               </children>
+            </GridPane>
+         </children>
+      </HBox>
+      <Button fx:id="b_submit" mnemonicParsing="false" onAction="#submitConfiguration" text="Submit">
+         <VBox.margin>
+            <Insets bottom="5.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
