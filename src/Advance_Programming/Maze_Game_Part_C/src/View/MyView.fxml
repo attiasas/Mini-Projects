@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import View.MazeDisplayer?>
+<VBox fx:id="gameBox" onKeyPressed="#KeyPressed" onKeyReleased="#KeyReleased" stylesheets="@MainStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+   <children>
+      <MenuBar stylesheets="@MainStyle.css">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem fx:id="b_NewBoard" mnemonicParsing="false" onAction="#openGenerateStage" text="New" />
+                  <MenuItem fx:id="b_saveBoard" disable="true" mnemonicParsing="false" onAction="#openSaveStage" text="Save" />
+                  <MenuItem mnemonicParsing="false" onAction="#openLoadStage" text="Load" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Options">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#openOptionsStage" text="Properties" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem fx:id="b_Controls" mnemonicParsing="false" onAction="#openHelpStage" text="Game Controls" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="About">
+               <items>
+                  <MenuItem fx:id="b_About" mnemonicParsing="false" onAction="#openAboutStage" text="About" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Exit">
+               <items>
+                  <MenuItem fx:id="b_Exit" mnemonicParsing="false" onAction="#exit" text="Exit The Game" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Pane fx:id="gamePane">
+         <children>
+            <MazeDisplayer fx:id="mazeDisplayer" imageFileNameCharacter="resources/Images/mouse.png" imageFileNameGoal="resources/Images/cheese.png" imageFileNameGuide="resources/Images/crumbs.png" imageFileNamePath="resources/Images/path.png" imageFileNameWall="resources/Images/wall.png" nodeOrientation="INHERIT" onMouseDragged="#mouseDrag" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" />
+         </children>
+      </Pane>
+      <HBox alignment="CENTER">
+         <children>
+            <Label text="Layer:">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="lb_layer" style="-fx-font-weight: bold;" text="1">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </Label>
+            <Label text="/" />
+            <Label fx:id="lb_maxLayer" style="-fx-font-weight: bold;" text="10">
+               <padding>
+                  <Insets left="5.0" right="10.0" />
+               </padding>
+            </Label>
+            <Button fx:id="b_solve" alignment="CENTER" disable="true" mnemonicParsing="false" onAction="#requestSolution" text="Solve" />
+            <Label text="Steps:">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="lb_steps" style="-fx-font-weight: bold;" text="1000">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

@@ -1,5 +1,5 @@
 # Maze Game - Part A
-### Maze Generator : 
+### Maze Generator : (Options for 2D or 3D)
 * Random 
 * version of prim algorithm
 

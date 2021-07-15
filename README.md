@@ -21,7 +21,8 @@ Programming assignments and projects on a variety of topics
 | Employee DataBase | Basic C++, classes, operator overload | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Employee_DataBase) |
 | Heroes of might and magic | Advance C++, Classes, OOP | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Heroes) |
 | Maze Game - Part A | Maze Generator, Search Algorithms, JUnit | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Maze_Game_Part_A) |
-| Maze Game - Part B | Client-Server Communication, Threads, Data Compression | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Maze_Game_Part_B) |
+| Maze Game - Part B | Client-Server Communication, Logging, Threads, Data Compression | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Maze_Game_Part_B) |
+| Maze Game - Part C | Event Driven Programming (MVVM), JavaFX (GUI), Design patterns | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Maze_Game_Part_C) |
 
 ### 📂 AI, ML and DL
 | Mini-Project Name | Subject | Link |
@@ -63,7 +64,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Maze Game - Part C | JavaFX (GUI), MVVM, Design patterns | Advance Programming |
 | User Orders System | Analysis and Design of Software Systems - Implement System Base On Diagram | Advance Programming |
 | Hotel System | Analysis and Design of Software Systems - Implement Constraints in System | Advance Programming |
 | ePark System | Analysis and Design of Software Systems - Implement System Base On User Cases (UC) | Advance Programming |

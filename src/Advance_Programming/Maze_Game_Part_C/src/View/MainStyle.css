@@ -1,0 +1,42 @@
+/*Const*/
+*{
+    -fx-primary : #2A2E37;
+    -fx-primaryText : #FFFFFF;
+    -fx-secondary : #434956;
+}
+
+.root
+{
+    -fx-background-color: -fx-secondary;
+    -fx-color-label-visible: -fx-secondary;
+    -fx-base: -fx-secondary;
+}
+
+.menu-bar
+{
+    -fx-base : -fx-primary;
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-primary;
+    /*-fx-text-fill: -fx-primaryText;*/
+    -fx-font-size: 13pt;
+    -fx-text-base-color : -fx-primaryText;
+}
+
+.context-menu
+{
+    -fx-background-color: -fx-primary;
+}
+
+.menu:hover
+{
+    -fx-background-color: -fx-secondary;
+}
+
+.menu-item:hover
+{
+    -fx-background-color: -fx-secondary;
+}
+.menu-item
+{
+    -fx-background-color: -fx-primary;
+}
