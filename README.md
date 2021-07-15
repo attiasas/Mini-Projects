@@ -39,6 +39,7 @@ Programming assignments and projects on a variety of topics
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
 | Mario Web-Page | HTML5, CSS3 | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Web_Development/Mario) |
+| Pacman Web-Game | advance HTML5, JavaScript | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Web_Development/Pacman) |
 
 ### 📂 NLP
 | Mini-Project Name | Subject | Link |
@@ -77,7 +78,6 @@ Programming assignments and projects on a variety of topics
 | AES3 | AES3 Using AES to Find Keys | Computer & Information Security |
 | POSIX File Permission | filesystem and network access control schemes and the "principle of least privilege | Computer & Information Security |
 | ---------------- | -------- | ----- |
-| Pacman Web-Game | advance HTML5, JavaScript | Web Development Environments |
 | Recipes Website - Backend Dev | OpenAPI, Azure, NodeJS | Web Development Environments |
 | Recipes Website - Frontend Dev | Vue.JS, Bootstrap | Web Development Environments |
 | ---------------- | -------- | ----- |
