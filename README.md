@@ -21,6 +21,7 @@ Programming assignments and projects on a variety of topics
 | Employee DataBase | Basic C++, classes, operator overload | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Employee_DataBase) |
 | Heroes of might and magic | Advance C++, Classes, OOP | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Heroes) |
 | Maze Game - Part A | Maze Generator, Search Algorithms, JUnit | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Maze_Game_Part_A) |
+| Maze Game - Part B | Client-Server Communication, Threads, Data Compression | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Advance_Programming/Maze_Game_Part_B) |
 
 ### 📂 AI, ML and DL
 | Mini-Project Name | Subject | Link |
@@ -62,7 +63,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Maze Game - Part B | Threads, Data Compression | Advance Programming |
 | Maze Game - Part C | JavaFX (GUI), MVVM, Design patterns | Advance Programming |
 | User Orders System | Analysis and Design of Software Systems - Implement System Base On Diagram | Advance Programming |
 | Hotel System | Analysis and Design of Software Systems - Implement Constraints in System | Advance Programming |
