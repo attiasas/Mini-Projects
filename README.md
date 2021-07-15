@@ -64,10 +64,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| User Orders System | Analysis and Design of Software Systems - Implement System Base On Diagram | Advance Programming |
-| Hotel System | Analysis and Design of Software Systems - Implement Constraints in System | Advance Programming |
-| ePark System | Analysis and Design of Software Systems - Implement System Base On User Cases (UC) | Advance Programming |
-| ---------------- | -------- | ----- |
 | Gates, Memory and CPU | Implement Virtual Components | Computing System |
 | Assembler | Implement Assembler | Computing System |
 | Compiler | Implement Compiler | Computing System |
