@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="logic/jquery-3.4.1.slim.min.js"></script>
+
+		<script type="text/javascript" src="logic/userPageLogic.js"></script>
+		<script type="text/javascript" src="logic/settingsLogic.js"></script>
+		<script type="text/javascript" src="logic/app.js"></script>
+
+		<!-- https://jqueryvalidation.org/ -->
+		<script src="https://jqueryvalidation.org/files/lib/jquery-1.19.1.js"></script>
+		<script src="https://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="style/mainStyle.css">
+
+		<!-- Info -->
+		<link rel="icon" href="img/tab.png">
+		<title>Assignment 2</title>
+		<meta name="author" content="assaf attias">
+	</head>
+
+	<body>
+		<!--- Menu & Welcome Section ------------------------------------------->
+		<div id="menu">
+			<ul class="menuList">
+				<li class="menuListItem" onclick="showDiv('welcome')">Welcome</li>
+				<li class="menuListItem" onclick="showDiv('signUp')">SignUp</li>
+				<li class="menuListItem" onclick="showDiv('logIn')">Game (Login required)</li>
+				<li class="menuListItem" id="aboutBtn">About</li>
+			</ul>
+		</div>
+
+		<div id="welcome">
+			<h1>Welcome To Packman Game!</h1>
+			<img src="img/logo.png">
+			<div class="container">
+				<input type="button" value="SignUp" onclick="showDiv('signUp')">
+				<input type="button" value="Login and Play" onclick="showDiv('logIn')">
+			</div>
+		</div>
+		<!---------------------------------------------------------------------->
+
+		<!--- User Section ----------------------------------------------------->
+		<div id="signUp" hidden=true>
+			<h1>SignUp</h1>
+
+			<form id="signUpForm">
+				<fieldset>
+					<legend>Sign Up Form</legend>
+					<p>
+						<label>User Name:</label>
+						<input type="text" id="signUpUserName" name="signUpUserName">
+					</p>
+					<p>
+						<label>Password:</label>
+						<input type="password" id="signUpPassword" name="signUpPassword">
+					</p>
+					<p>
+						<label>Full Name:</label>
+						<input type="text" id="signUpFullName" name="signUpFullName">
+					</p>
+					<p>
+						<label>Email:</label>
+						<input type="email" id="signUpEmail" name="signUpEmail">
+					</p>
+					<p>
+						<label>Birth Date:</label>
+						<input type="date" id="signUpDate" name="signUpDate">
+					</p>
+					<p>
+						<input type="submit" value="Submit">
+					</p>
+				</fieldset>
+			</form>
+		</div>
+		<div id="logIn" hidden=true>
+			<h1>Login</h1>
+
+			<form id="logInForm">
+				<fieldset>
+					<legend>Log In Form</legend>
+					<p>
+						<label>User Name:</label>
+						<input type="text" id="logInUserName" name="logInUserName">
+					</p>
+					<p>
+						<label>Password:</label>
+						<input type="password" id="logInPassword" name="logInPassword">
+					</p>
+					<p>
+						<input type="submit" value="Submit">
+					</p>
+				</fieldset>
+			</form>
+		</div>
+		<!---------------------------------------------------------------------->
+
+		<!--- Info Section ----------------------------------------------------->
+		<div id="about" class="modal">
+			<div class="modal-content">
+				<span class="close" id="aboutClose">&times;</span>
+				<h1>About The Site</h1>
+				<h2>Submiters</h2>
+				<p>Assaf Attias</p>
+				<h2>API Used</h2>
+				<p>Form Validation: <a href="https://jqueryvalidation.org/">https://jqueryvalidation.org/</a></p>
+				<h2>Difficulties In Implementation</h2>
+				<p>sync signed users in browser</p>
+				<p>Refactor the Given code</p>
+			</div>
+		</div>
+		<!---------------------------------------------------------------------->
+		
+		<!--- Game Section ----------------------------------------------------->
+		<div id="settings" hidden=true>
+			<h1>Settings</h1>
+			<form id="settingsForm">
+				<fieldset>
+					<legend>Game Settings</legend>
+					<h3>Controls</h3>
+					<p>
+						<label>Left Control</label>
+						<input type="text" id="leftContolInput" readonly="true" value="Focus and Type">
+					</p>
+					<p>
+						<label>Right Control</label>
+						<input type="text" id="rightControlInput" readonly="true" value="Focus and Type">
+					</p>
+					<p>
+						<label>Up Control</label>
+						<input type="text" id="upControlInput" readonly="true" value="Focus and Type">
+					</p>
+					<p>
+						<label>Down Control</label>
+						<input type="text" id="downControlInput" readonly="true" value="Focus and Type">
+					</p>
+					<h3>Colors</h3>
+					<p>
+						<label>Common Ball Color (60% of Balls, worth 5 Points)</label>
+						<input type="color" id="easyBallColorInput">
+					</p>
+					<p>
+						<label>Normal Ball Color (30% of Balls, worth 15 Points)</label>
+						<input type="color" id="normalBallColorInput">
+					</p>
+					<p>
+						<label>Rare Ball Color (10% of Balls, worth 25 Points)</label>
+						<input type="color" id="rareBallColorInput">
+					</p>
+					<h3>Other</h3>
+					<p>
+						<label>Game Time (in seconds)</label>
+						<input type="number" id="totalGameTimeInput" min="60">
+					</p>
+					<p>
+						<label>Number Of Balls</label>
+						<input type="number" id="numOfBallsInput" min="50" max="90">
+					</p>
+					<p>
+						<label>Number Of Monsters</label>
+						<input type="number" id="numOfMonstersInput" min="1" max="4">
+					</p>
+					<p>
+						<input type="submit" value="Submit">
+						<input type="button" id="randomInput" value="Random" onclick="randomSettings()">
+					</p>
+				</fieldset>
+			</form>
+		</div>
+
+		<div id="gameState" hidden=true>
+			<audio id="gameAudio">
+				<source src="music/gameMusic.mp3",>
+			</audio>
+			<ul>
+				<li>
+					<div id="currentName">
+						<label for="lblName">NAME:</label>
+						<input id="lblName" type="text" />
+					</div>
+				</li>
+				<li>
+					<div id="lifes">
+						<label for="lblLifes">LIFES:</label>
+						<input id="lblLifes" type="text" />
+					</div>
+				</li>
+				<li>
+					<div id="time">
+						<label for="lblTime">TIME:</label>
+						<input id="lblTime" type="text" />
+					</div>
+				</li>
+				<li>
+					<div id="score">
+						<label for="lblScore">SCORE:</label>
+						<input id="lblScore" type="text" />
+					</div>
+				</li>
+			</ul>
+			
+			<div id="game">
+				<ul>
+					<li><canvas id="canvas" height="600" width="600"></canvas></li>
+					<li>
+						<div id="showSettings">
+							<input type="button" id="resetGame" value="Restart Game">
+							<h2>Settings</h2>
+							<h3>Controls</h3>
+							<p>
+								<label>Left Control</label>
+								<input id="leftContol" readonly="true">
+							</p>
+							<p>
+								<label>Right Control</label>
+								<input id="rightControl" readonly="true">
+							</p>
+							<p>
+								<label>Up Control</label>
+								<input id="upControl" readonly="true">
+							</p>
+							<p>
+								<label>Down Control</label>
+								<input id="downControl" readonly="true">
+							</p>
+							<h3>Colors</h3>
+							<p>
+								<input type="color" id="easyBallColor" readonly="true">
+								<label>Ball (worth 5 Points)</label>
+							</p>
+							<p>
+								<input type="color" id="normalBallColor" readonly="true">
+								<label>Ball (worth 15 Points)</label>
+							</p>
+							<p>
+								<input type="color" id="rareBallColor" readonly="true">
+								<label>Ball (worth 25 Points)</label>
+							</p>
+							<h3>Other</h3>
+							<p>
+								<label>Game Time (in seconds)</label>
+								<input id="totalGameTime" readonly="true">
+							</p>
+							<p>
+								<label>Start #Balls</label>
+								<input id="numOfBalls" readonly="true">
+							</p>
+							<p>
+								<label>Start #Monsters</label>
+								<input id="numOfMonsters" readonly="true">
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!---------------------------------------------------------------------->
+	</body>
+
+	<footer>
+		<h3>Site Info</h3>
+		<p>
+			<span>In Web Development Environments Course </span>
+			|
+			<span> Creators: Assaf </span>
+			|
+			<span> Email For Communication: attiasas@post.bgu.ac.il</span>
+		</p>
+	</footer>
+</html>
