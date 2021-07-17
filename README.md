@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.5.4-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.6.1-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -50,6 +50,7 @@ Programming assignments and projects on a variety of topics
 ### 📂 Computer & Information Security
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
+| Virtual Components | Implement Gates, Memory and ALU | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Virtual_Components) |
 
 ### 📂 Databases
 | Mini-Project Name | Subject | Link |
@@ -68,7 +69,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Gates, Memory and CPU | Implement Virtual Components | Computing System |
 | Assembler | Implement Assembler | Computing System |
 | Compiler | Implement Compiler | Computing System |
 | Scheduling | Implement Scheduler | Operation Systems |
@@ -93,7 +93,7 @@ Programming assignments and projects on a variety of topics
 | Search Engine | Information Retrieval - Build Index Of Documents And Query for Document retrievals | NLP |
 | Spell Checker | Noisy Channel and a Probabilistic Spell Checker | NLP |
 | Who Controls this Account | Text classification and Authorship Attribution | NLP |
-| Part of Speech (POS) Tagging | implement a Hidden Markov Model for Part of Speech tagging | NLP |
+| Part of Speech (POS) Tagging | implement a Hidden Markov Model (viterbi and learning) for Part of Speech tagging | NLP |
 
 
 
