@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.6.2-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.6.3-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -36,6 +36,7 @@ Programming assignments and projects on a variety of topics
 | ---------------- | -------- | ----- |
 | Virtual Components | Implement Gates, Memory and ALU | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Virtual_Components) |
 | Assembler and Machine | Implement Extended Memory (Direct Write), CPU16bit, Machine16bit (von-neumann) and Assembler | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Assembler) |
+| Compiler | Implement Compiler (Tokenizing,Parsing,Code Generation) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Compiler) |
 
 ### 📂 Web
 | Mini-Project Name | Subject | Link |
@@ -70,7 +71,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Compiler | Implement Compiler | Computing System |
 | Scheduling | Implement Scheduler | Operation Systems |
 | Thread Synchronization | Threads | Operation Systems |
 | Memory Management | Implement MMU | Operation Systems |
