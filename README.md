@@ -77,8 +77,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| POSIX File Permission | filesystem and network access control schemes and the "principle of least privilege | Computer & Information Security |
-| ---------------- | -------- | ----- |
 | Single Search Agent | Search Algorithms | Intro AI |
 | Two Player Games | MinMax Algorithm | Intro AI |
 | MDP and Reinforcement Learning | Q-Learning Implementation | Intro AI |
@@ -93,8 +91,6 @@ Programming assignments and projects on a variety of topics
 | Spell Checker | Noisy Channel and a Probabilistic Spell Checker | NLP |
 | Who Controls this Account | Text classification and Authorship Attribution | NLP |
 | Part of Speech (POS) Tagging | implement a Hidden Markov Model (viterbi and learning) for Part of Speech tagging | NLP |
-
-
 
 
 **[⬆ back to top](#-description)**
