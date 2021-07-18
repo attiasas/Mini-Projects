@@ -40,6 +40,7 @@ Programming assignments and projects on a variety of topics
 | Scheduler | Implement Context Switch, Interrupt, SchedulingPolicy, Metrics | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Scheduler) |
 | Thread Synchronization | Implementation of Synchronize MailBox (Mutex, Semaphore) for Msg to computer network | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Thread_Synchronization) |
 | Memory Management | Implementation of Memory Management Unit - MMU (Singleton) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Memory_Management) |
+| Garbage Collection | Implement GC (Mark & Sweep algorithm) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Garbage_Collection) |
 
 ### 📂 Web
 | Mini-Project Name | Subject | Link |
@@ -73,8 +74,6 @@ Programming assignments and projects on a variety of topics
 
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
-| ---------------- | -------- | ----- |
-| Garbage Collection | Implement GC | Operation Systems |
 | ---------------- | -------- | ----- |
 | hash cracker | Distributed password hacking server | Data Communications / Cyber-Security |
 | AES3 | AES3 Using AES to Find Keys | Computer & Information Security |
