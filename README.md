@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.6.5-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.6.6-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -35,10 +35,11 @@ Programming assignments and projects on a variety of topics
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
 | Virtual Components | Implement Gates, Memory and ALU | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Virtual_Components) |
-| Assembler and Machine | Implement Extended Memory (Direct Write), CPU16bit, Machine16bit (von-neumann) and Assembler | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Assembler) |
-| Compiler | Implement Compiler (Tokenizing,Parsing,Code Generation) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Compiler) |
-| Scheduler | Implement Context Switch, Interrupt, SchedulingPolicy, Metrics | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Scheduler) |
-| Thread Synchronization | Implementation of Synchronize MailBox (Mutex, Semaphore) for Msg to computer network | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Thread_Synchronization) |
+| Assembler and Machine | Implement Extended Memory (Direct Write), CPU16bit, Machine16bit (von-neumann) and Assembler | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Assembler) |
+| Compiler | Implement Compiler (Tokenizing,Parsing,Code Generation) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Compiler) |
+| Scheduler | Implement Context Switch, Interrupt, SchedulingPolicy, Metrics | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Scheduler) |
+| Thread Synchronization | Implementation of Synchronize MailBox (Mutex, Semaphore) for Msg to computer network | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Thread_Synchronization) |
+| Memory Management | Implementation of Memory Management Unit - MMU (Singleton) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computing_Operation_Systems/Memory_Management) |
 
 ### 📂 Web
 | Mini-Project Name | Subject | Link |
@@ -73,7 +74,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Memory Management | Implement MMU | Operation Systems |
 | Garbage Collection | Implement GC | Operation Systems |
 | ---------------- | -------- | ----- |
 | hash cracker | Distributed password hacking server | Data Communications / Cyber-Security |
