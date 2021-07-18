@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.6.4-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.6.5-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -38,6 +38,7 @@ Programming assignments and projects on a variety of topics
 | Assembler and Machine | Implement Extended Memory (Direct Write), CPU16bit, Machine16bit (von-neumann) and Assembler | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Assembler) |
 | Compiler | Implement Compiler (Tokenizing,Parsing,Code Generation) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Compiler) |
 | Scheduler | Implement Context Switch, Interrupt, SchedulingPolicy, Metrics | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Scheduler) |
+| Thread Synchronization | Implementation of Synchronize MailBox (Mutex, Semaphore) for Msg to computer network | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Thread_Synchronization) |
 
 ### 📂 Web
 | Mini-Project Name | Subject | Link |
@@ -72,7 +73,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Thread Synchronization | Threads | Operation Systems |
 | Memory Management | Implement MMU | Operation Systems |
 | Garbage Collection | Implement GC | Operation Systems |
 | ---------------- | -------- | ----- |
