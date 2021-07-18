@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.7.1-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.7.2-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -58,6 +58,7 @@ Programming assignments and projects on a variety of topics
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
 | Hash Cracker | Distributed password hacking server and Msg Communication Protocol | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Hash_Cracker) |
+| AES3 | Implementation of AES and AES3 Encryption algorithms and program for hacking (find keys) AES3 | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/AES3) |
 
 ### 📂 Databases
 | Mini-Project Name | Subject | Link |
@@ -76,7 +77,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| AES3 | AES3 Using AES to Find Keys | Computer & Information Security |
 | POSIX File Permission | filesystem and network access control schemes and the "principle of least privilege | Computer & Information Security |
 | ---------------- | -------- | ----- |
 | Single Search Agent | Search Algorithms | Intro AI |
