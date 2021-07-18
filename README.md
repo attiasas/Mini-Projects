@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.6.6-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.7.1-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -57,6 +57,7 @@ Programming assignments and projects on a variety of topics
 ### 📂 Computer & Information Security
 | Mini-Project Name | Subject | Link |
 | ---------------- | -------- | ----- |
+| Hash Cracker | Distributed password hacking server and Msg Communication Protocol | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/Computer_Information_Security/Hash_Cracker) |
 
 ### 📂 Databases
 | Mini-Project Name | Subject | Link |
@@ -75,7 +76,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| hash cracker | Distributed password hacking server | Data Communications / Cyber-Security |
 | AES3 | AES3 Using AES to Find Keys | Computer & Information Security |
 | POSIX File Permission | filesystem and network access control schemes and the "principle of least privilege | Computer & Information Security |
 | ---------------- | -------- | ----- |
