@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.8.1-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.8.2-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -31,6 +31,7 @@ Programming assignments and projects on a variety of topics
 | Ensemble | Condorcet's Jury Theorem (Monte-Carlo simulation), AdaBoost | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Ensemble) |
 | Imbalanced DataSet | Data Exploration, Pre-Processing. Training 3 Models (Logistic Regression, Balanced Random Forest, NN) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Imbalanced_DataSet) |
 | Single Search Agent | A*, BFS, Heuristics | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Single_Search_Agent) |
+| Two Player Games | MiniMax and AlphaBetaPruning Algorithms | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Two_Player_Games) |
 
 ### 📂 Computing and Operation Systems
 | Mini-Project Name | Subject | Link |
@@ -78,7 +79,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Two Player Games | MinMax Algorithm | Intro AI |
 | MDP and Reinforcement Learning | Q-Learning Implementation | Intro AI |
 | Countries Dataset | K-means clustering with GUI | Data Science And Business Intelligence |
 | ANN | building a simple neural network “from scratch” and forward/backward propagation process | Deep Learning |
