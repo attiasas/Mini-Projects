@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.8.2-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.8.3-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -32,6 +32,7 @@ Programming assignments and projects on a variety of topics
 | Imbalanced DataSet | Data Exploration, Pre-Processing. Training 3 Models (Logistic Regression, Balanced Random Forest, NN) | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Imbalanced_DataSet) |
 | Single Search Agent | A*, BFS, Heuristics | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Single_Search_Agent) |
 | Two Player Games | MiniMax and AlphaBetaPruning Algorithms | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Two_Player_Games) |
+| MDP and Reinforcement Learning | MDP Value Iteration and Q-Learning Implementation | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/MDP_RL) |
 
 ### 📂 Computing and Operation Systems
 | Mini-Project Name | Subject | Link |
@@ -79,7 +80,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| MDP and Reinforcement Learning | Q-Learning Implementation | Intro AI |
 | Countries Dataset | K-means clustering with GUI | Data Science And Business Intelligence |
 | ANN | building a simple neural network “from scratch” and forward/backward propagation process | Deep Learning |
 | Facial Recognition | CNN, one-shot Learning and Siamese Neural Networks | Deep Learning |
