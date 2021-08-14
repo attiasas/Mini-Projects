@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.8.3-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.8.8-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -33,6 +33,11 @@ Programming assignments and projects on a variety of topics
 | Single Search Agent | A*, BFS, Heuristics | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Single_Search_Agent) |
 | Two Player Games | MiniMax and AlphaBetaPruning Algorithms | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Two_Player_Games) |
 | MDP and Reinforcement Learning | MDP Value Iteration and Q-Learning Implementation | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/MDP_RL) |
+| ANN | building a simple neural network “from scratch” and forward/backward propagation process | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/ANN) |
+| Facial Recognition | CNN, one-shot Learning and Siamese Neural Networks | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Facial_Recognition) |
+| Lyrics Generation | building a recurrent neural net (RNN) and using it on a real-world dataset | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Lyrics_Generation) |
+| Generative Models | implement standard GAN, and modified GAN architecture | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Generative_Models) |
+| MFDCA Challenge | distinguish masqueraders from benign users, from the history of bash commands with transformers | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/MFDCA) |
 
 ### 📂 Computing and Operation Systems
 | Mini-Project Name | Subject | Link |
@@ -79,13 +84,6 @@ Programming assignments and projects on a variety of topics
 
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
-| ---------------- | -------- | ----- |
-| Countries Dataset | K-means clustering with GUI | Data Science And Business Intelligence |
-| ANN | building a simple neural network “from scratch” and forward/backward propagation process | Deep Learning |
-| Facial Recognition | CNN, one-shot Learning and Siamese Neural Networks | Deep Learning |
-| Lyrics Generation | building a recurrent neural net (RNN) and using it on a real-world dataset | Deep Learning |
-| Generative Models | implement standard GAN, and modified GAN architecture | Deep Learning |
-| MFDCA Official Challenge | distinguish masqueraders from benign users, from the history of bash commands with transformers | Deep Learning / Cyber-Security |
 | ---------------- | -------- | ----- |
 | Search Engine | Information Retrieval - Build Index Of Documents And Query for Document retrievals | NLP |
 | Spell Checker | Noisy Channel and a Probabilistic Spell Checker | NLP |
