@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.8.5-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.8.6-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -35,6 +35,7 @@ Programming assignments and projects on a variety of topics
 | MDP and Reinforcement Learning | MDP Value Iteration and Q-Learning Implementation | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/MDP_RL) |
 | ANN | building a simple neural network “from scratch” and forward/backward propagation process | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/ANN) |
 | Facial Recognition | CNN, one-shot Learning and Siamese Neural Networks | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Facial_Recognition) |
+| Lyrics Generation | building a recurrent neural net (RNN) and using it on a real-world dataset | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/AI_ML_DL/Lyrics_Generation) |
 
 ### 📂 Computing and Operation Systems
 | Mini-Project Name | Subject | Link |
@@ -82,7 +83,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Lyrics Generation | building a recurrent neural net (RNN) and using it on a real-world dataset | Deep Learning |
 | Generative Models | implement standard GAN, and modified GAN architecture | Deep Learning |
 | MFDCA Official Challenge | distinguish masqueraders from benign users, from the history of bash commands with transformers | Deep Learning / Cyber-Security |
 | ---------------- | -------- | ----- |
