@@ -544,10 +544,3 @@ def normalize_text(text,lemmatization=False):
         processed = ' '.join(processed_tokens)
 
     return processed
-
-def who_am_i():
-    """
-        Returns a dictionary with your name, id number and email. keys=['name', 'id','email']
-        Make sure you return your own info!
-    """
-    return {'name': 'Assaf Attias', 'id': '308214899', 'email': 'attiasas@post.bgu.ac.il'}

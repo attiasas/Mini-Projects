@@ -1,5 +1,5 @@
 # Mini-Projects
-![](https://img.shields.io/badge/version-0.9.2-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
+![](https://img.shields.io/badge/version-0.9.3-blueviolet)  ![](https://img.shields.io/apm/l/atomic-design-ui.svg?) 
 ## ✨ Description
 Programming assignments and projects on a variety of topics
 
@@ -63,6 +63,7 @@ Programming assignments and projects on a variety of topics
 | ---------------- | -------- | ----- |
 | Search Engine | Information Retrieval - Build Index Of Documents And Query for Document retrievals | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/NLP/Search_Engine) |
 | Spell Checker | Noisy Channel and a Probabilistic Spell Checker | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/NLP/Spell_Checker) |
+| Text classification | Text classification and Authorship Attribution - Who Controls this Account | [To Project](https://github.com/attiasas/Mini-Projects/tree/master/src/NLP/Text_classification) |
 
 ### 📂 Computer & Information Security
 | Mini-Project Name | Subject | Link |
@@ -87,7 +88,6 @@ Programming assignments and projects on a variety of topics
 #### 📌 Future Planned Projects
 | Mini-Project Name | Subject | Topic |
 | ---------------- | -------- | ----- |
-| Who Controls this Account | Text classification and Authorship Attribution | NLP |
 | Part of Speech (POS) Tagging | implement a Hidden Markov Model (viterbi and learning) for Part of Speech tagging | NLP |
 
 
